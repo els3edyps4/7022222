@@ -3,14 +3,12 @@ CACHE MANIFEST
 # 10/08/2020-11:00:00.44 
 
 index.html
+hen702.html
+kdumper.html
+netcat702.html
 kex.js
 webkit.js
 mira.js
 k_dumper.js
 c-code.js
 ps4-hen-vtx-702.js
-702.js
-int64.js
-rop.js
-userland.js
-ps4.js
