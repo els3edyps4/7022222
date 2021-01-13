@@ -74,7 +74,7 @@ document.cookie = 'kex=1';
 <div style="text-align:center">
 <button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_hen()> HEN v2.1.3 </button>
 <button class="btn btn-main" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_mira()> MIRA </button>
-<button class="btn btn-secondary" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_mirahen()> CE-30391-6_Fix </button>
+<button class="btn btn-secondary" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_mirahen()> MIRA_HEN</button>
 <br><br>
 <h1 style="font-size:20px;text-align:center;">Payloads</h1>
 <button class="btn btn-secondary" onmouseover="todex()" onmouseout="pagetitle()" onclick=load_todex()> ToDex </button>
@@ -289,6 +289,11 @@ function load_enablevr(){
   var link = document.createElement('a');
         document.body.appendChild(link);
         link.href = 'payload702.html#f=enable-vr.js';
+        link.click();
+function load_spoof8.03(){
+
+        document.body.appendChild(link);
+        link.href = 'spoof8.03.html#f=spoof8.03.js';
         link.click();
 }
 function load_fanthreshold(){
