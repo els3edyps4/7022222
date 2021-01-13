@@ -95,7 +95,6 @@ document.cookie = 'kex=1';
 <br>
 <button class="btn btn-main" onmouseover="binloader()" onmouseout="pagetitle()" onclick=load_binloader()> Bin Loader </button>
 <button class="btn btn-main" onmouseover="enablevr()" onmouseout="pagetitle()" onclick=load_enablevr()> Enable VR </button>
-<button class="btn btn-main" onmouseover="spoof 8.03()" onmouseout="pagetitle()" onclick=load_spoof 8.03()>spoof 8.03</button>
 <button class="btn btn-main" onmouseover="fanthreshold()" onmouseout="pagetitle()"  style="margin-right:10px" onclick=load_fanthreshold()> Fan Threshold (Beta) </button><select id="tempC"></select>&#176;C
 <br><br>
 <hr style="margin-top: 24px;">
@@ -152,9 +151,6 @@ document.getElementById("msgs").innerHTML = "Inject a Payload Using the IP of th
 }
 function enablevr(){
 document.getElementById("msgs").innerHTML = "Enable PSVR (You must start HEN or MIRA before)";
-}
-function spoof 8.03(){
-document.getElementById("msgs").innerHTML = "spoof 8.03";
 }
 function fanthreshold(){
 document.getElementById("msgs").innerHTML = "Modify PS4 Fan Speed";
@@ -289,11 +285,6 @@ function load_enablevr(){
   var link = document.createElement('a');
         document.body.appendChild(link);
         link.href = 'payload702.html#f=enable-vr.js';
-        link.click();
-function load_spoof8.03(){
-
-        document.body.appendChild(link);
-        link.href = 'spoof8.03.html#f=spoof8.03.js';
         link.click();
 }
 function load_fanthreshold(){
