@@ -74,7 +74,7 @@ document.cookie = 'kex=1';
 <div style="text-align:center">
 <button class="btn btn-main" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_hen()> HEN v2.1.3 </button>
 <button class="btn btn-main" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_hen2()> HEN-U </button>
-<button class="btn btn-main" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_mira()> MIRA </button>
+<button class="btn btn-main" onmouseover="mainpayload3()" onmouseout="pagetitle()" onclick=load_hen sp71()> HEN SP71 </button>
 <button class="btn btn-secondary" onmouseover="mainpayload4()" onmouseout="pagetitle()" onclick=load_mirahen()>CE-30391-6_Fix</button>
 <br><br>
 <h1 style="font-size:20px;text-align:center;">Payloads</h1>
@@ -110,7 +110,7 @@ function mainpayload2(){
 document.getElementById("msgs").innerHTML = "HEN + ToDex 0x80 ";
 }
 function mainpayload3(){
-document.getElementById("msgs").innerHTML = "MIRA for Firmware 7.02";
+document.getElementById("msgs").innerHTML = "HEN SP71";
 }
 function mainpayload4(){
 document.getElementById("msgs").innerHTML = "Temporary Fix for PS4 with Error CE-30391-6";
@@ -191,7 +191,7 @@ function load_mira(){
 
   var link = document.createElement('a');
         document.body.appendChild(link);
-        link.href = 'payload702.html#f=mira2.js';
+        link.href = 'payload702.html#f=henSP71.js';
         link.click();
 }
 function load_mirahen(){
